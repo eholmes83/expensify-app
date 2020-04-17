@@ -1,0 +1,19 @@
+{
+  "name": "expensify-app",
+  "version": "1.0.0",
+  "description": "Expensify App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eholmes83/expensify-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eholmes83/expensify-app/issues"
+  },
+  "homepage": "https://github.com/eholmes83/expensify-app#readme"
+}
