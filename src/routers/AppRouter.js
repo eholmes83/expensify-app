@@ -1,23 +1,23 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import AddExpensePage from '../components/AddExpense'
-import HelpPage from '../components/Help'
-import ExpenseDashboardPage from '../components/ExpenseDashboard'
-import EditExpensePage from '../components/EditExpense'
+import Contact from '../components/Contact'
 import Header from '../components/Header'
-import NotFoundPage from '../components/NotFound'
+import Home from '../components/Home'
+import NotFound from '../components/NotFound'
+import Portfolio from '../components/Portfolio'
+import PortfolioItem from '../components/PortfolioItem'
 
 const AppRouter = () => (
   <BrowserRouter>
       <div>
-          <Header />
-          <Switch>
-          <Route path="/" component={ExpenseDashboardPage} exact={true} />
-          <Route path="/create" component={AddExpensePage} />
-          <Route path="/edit/:id" component={EditExpensePage} />
-          <Route path="/help" component={HelpPage} />
-          <Route component={NotFoundPage} />
-      </Switch>
+        <Header />
+        <Switch>
+          <Route path='/' exact={true} component={Home} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/portfolio' exact={true} component={Portfolio} />
+          <Route path='/portfolio/:id' component={PortfolioItem} />
+          <Route component={NotFound} />
+        </Switch>
       </div>
   </BrowserRouter>
 )
