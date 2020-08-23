@@ -4,7 +4,6 @@
   "description": "Expensify App",
   "main": "index.js",
   "scripts": {
-    "live-server": "live-server public",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -35,12 +34,7 @@
     "babel-preset-react": "^6.24.1",
     "braces": "^2.3.1",
     "css-loader": "^3.4.2",
-    "enzyme": "3.0.0",
-    "enzyme-adapter-react-16": "1.0.0",
-    "enzyme-to-json": "3.0.1",
     "express": "4.15.4",
-    "jest": "20.0.4",
-    "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.10.0",
     "minimist": "^0.2.1",
     "moment": "^2.27.0",
@@ -53,7 +47,6 @@
     "react-modal": "^3.11.1",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.1.2",
-    "react-test-renderer": "16.0.0",
     "redux": "3.7.2",
     "run": "^1.4.0",
     "sass-loader": "^8.0.2",
@@ -61,7 +54,14 @@
     "uuid": "^8.2.0",
     "validator": "^12.2.0",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "enzyme": "3.0.0",
+    "enzyme-adapter-react-16": "1.0.0",
+    "enzyme-to-json": "3.0.1",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0",
     "webpack-dev-server": "^3.11.0"
   }
 }
