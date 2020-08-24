@@ -2,7 +2,7 @@ import React from 'react'
 
 const HelpPage = () => (
   <div>
-      From Help Page
+    Having problems? Reach out with any issues to help@gmail.com
   </div>
 )
 
