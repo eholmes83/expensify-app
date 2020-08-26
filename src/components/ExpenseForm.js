@@ -48,7 +48,7 @@ export default class ExpenseForm extends React.Component {
 
     if (!this.state.description || !this.state.amount) {
       // set error state to 'please enter descripion and amount'
-      this.setState(() => ({ error: 'Please enter descripion and amount' }))
+      this.setState(() => ({ error: 'Please enter description and amount' }))
     } else {
       // clear error
       this.setState(() => ({ error: '' }))
@@ -90,7 +90,7 @@ export default class ExpenseForm extends React.Component {
           />
           <textarea
             placeholder='Add a note for your expense (optional)'
-            value={this.state.textArea} 
+            value={this.state.note} 
             onChange={this.onNoteChange} 
           >
           </textarea>

@@ -36,6 +36,7 @@ export class ExpenseListFilters extends React.Component {
           type='text'
           value={this.props.filters.text}
           onChange={this.onTextChange} 
+          placeholder='Description Filter'
         />
         <select
           type='text'
