@@ -63,6 +63,9 @@ module.exports = (env) => {
       historyApiFallback: true,
       publicPath: '/dist/'
     },
-    mode: 'development'
+    mode: 'development',
+    optimization: {
+      runtimeChunk: 'single'
+    }
   } 
 }
