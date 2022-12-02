@@ -18,7 +18,7 @@ exports[`should render ExpenseForm correctly 1`] = `
       type="text"
       value=""
     />
-    <withStyles(SingleDatePicker)
+    <[object Object]
       anchorDirection="left"
       appendToBody={false}
       block={false}
@@ -116,6 +116,7 @@ exports[`should render ExpenseForm correctly 1`] = `
     <textarea
       onChange={[Function]}
       placeholder="Add a note for your expense (optional)"
+      value=""
     />
     <button>
       Add Expense
@@ -142,7 +143,7 @@ exports[`should render ExpenseForm correctly with expense data 1`] = `
       type="text"
       value="45"
     />
-    <withStyles(SingleDatePicker)
+    <[object Object]
       anchorDirection="left"
       appendToBody={false}
       block={false}
@@ -240,6 +241,7 @@ exports[`should render ExpenseForm correctly with expense data 1`] = `
     <textarea
       onChange={[Function]}
       placeholder="Add a note for your expense (optional)"
+      value=""
     />
     <button>
       Add Expense
@@ -266,7 +268,7 @@ exports[`should render error for invalid form submission 1`] = `
       type="text"
       value=""
     />
-    <withStyles(SingleDatePicker)
+    <[object Object]
       anchorDirection="left"
       appendToBody={false}
       block={false}
@@ -364,6 +366,7 @@ exports[`should render error for invalid form submission 1`] = `
     <textarea
       onChange={[Function]}
       placeholder="Add a note for your expense (optional)"
+      value=""
     />
     <button>
       Add Expense
@@ -375,7 +378,7 @@ exports[`should render error for invalid form submission 1`] = `
 exports[`should render error for invalid form submission 2`] = `
 <div>
   <p>
-    Please enter descripion and amount
+    Please enter description and amount
   </p>
   <form
     onSubmit={[Function]}
@@ -393,7 +396,7 @@ exports[`should render error for invalid form submission 2`] = `
       type="text"
       value=""
     />
-    <withStyles(SingleDatePicker)
+    <[object Object]
       anchorDirection="left"
       appendToBody={false}
       block={false}
@@ -491,6 +494,7 @@ exports[`should render error for invalid form submission 2`] = `
     <textarea
       onChange={[Function]}
       placeholder="Add a note for your expense (optional)"
+      value=""
     />
     <button>
       Add Expense

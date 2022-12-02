@@ -8,7 +8,7 @@ import './styles/styles.scss'
 import 'react-dates/lib/css/_datepicker.css'
 import 'react-dates/initialize'
 import './firebase/firebase'
-// import './playground/promises'
+// import './playground/firebase-notes' // for testing purposes
 
 const store = configureStore()
 

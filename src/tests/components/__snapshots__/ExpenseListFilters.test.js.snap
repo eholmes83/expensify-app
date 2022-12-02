@@ -4,6 +4,7 @@ exports[`should render ExpenseListFilters 1`] = `
 <div>
   <input
     onChange={[Function]}
+    placeholder="Description Filter"
     type="text"
     value=""
   />
@@ -23,7 +24,7 @@ exports[`should render ExpenseListFilters 1`] = `
       Amount
     </option>
   </select>
-  <withStyles(DateRangePicker)
+  <[object Object]
     anchorDirection="left"
     appendToBody={false}
     block={false}
@@ -133,6 +134,7 @@ exports[`should render ExpenseListFilters with alt data 1`] = `
 <div>
   <input
     onChange={[Function]}
+    placeholder="Description Filter"
     type="text"
     value="Bill"
   />
@@ -152,7 +154,7 @@ exports[`should render ExpenseListFilters with alt data 1`] = `
       Amount
     </option>
   </select>
-  <withStyles(DateRangePicker)
+  <[object Object]
     anchorDirection="left"
     appendToBody={false}
     block={false}
